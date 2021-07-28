@@ -33,6 +33,7 @@ go_btn.onclick=function(){
                 temp=response_obj.current.temp;
                 pressure=response_obj.current.pressure;
                 console.log(timezone,humidity,temp,pressure);
+                console.log(response_obj);
                 
                 opt1.innerHTML="Timezone: "+timezone;
                 opt2.innerHTML="Temp: "+temp+" celcius";
